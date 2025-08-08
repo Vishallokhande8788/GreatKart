@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'category',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -71,6 +72,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'greatkart.wsgi.application'
+AUTH_USER_MODEL = 'accounts.Account'
+
 
 
 # Database
@@ -124,6 +127,11 @@ STATIC_ROOT = BASE_DIR / 'static'
 STATICFILES_DIRS = [
 'greatkart/static',
 ]
+
+# media files configuration
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
