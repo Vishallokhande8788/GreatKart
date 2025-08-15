@@ -19,7 +19,7 @@ from django.urls import path , include
 from home import views
 from django.conf.urls.static import static
 from django.conf import settings
-
+from django.contrib import admin
 
 MEDIA_ROOT = settings.MEDIA_ROOT
 
