@@ -1,3 +1,5 @@
+#  context processor = auto-supplier of variables to all templates.
+
 from .models import Category
 
 
