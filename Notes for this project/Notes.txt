@@ -13,3 +13,6 @@ Why we use slug
 context processor ==>
 
 🔑 A function that makes some data available to all templates automatically – so you don’t have to pass it manually from every view.
+
+__slug ==>
+syntax to get access to the slug of a model object 
