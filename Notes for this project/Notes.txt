@@ -1,0 +1,15 @@
+Slug ==>
+
+In Django, a slug is just a short, URL-friendly version of a name or title.
+Think of it like this:
+If you have a Category Name like "T Shirt", the slug might be "t-shirt".
+It removes spaces, special characters, and converts everything to lowercase so it can be safely used in a URL.
+Why we use slug
+✅ Makes URLs clean and readable
+✅ SEO friendly (good for Google search ranking)
+✅ Helps Django find the right object (category or product) easily
+
+
+context processor ==>
+
+🔑 A function that makes some data available to all templates automatically – so you don’t have to pass it manually from every view.
